@@ -1,7 +1,7 @@
 # DROP-GroupFantasy
 
 load checkpoint:
-'''
+```
 from bert.modeling_drop import MTMSN
 import torch
 from collections import OrderedDict
@@ -12,6 +12,6 @@ for i in checkpoint['model']:
 model_cp = OrderedDict(model_cp)
 model = MTMSN(bert_config)
 torch.save(model_cp, 'new.bin')
-'''
+```
 
 new.bin is the init_checkpoint in the running command
