@@ -12,7 +12,7 @@ A little modifications on run_mtmsn.py:
 import sys
 sys.path.append('master_folder_path') # master folder = the folder contains drop,bert,...
 ```
-Set dictionary to your master folder ( you can upload files to G drive and link you colab to your G drive)
+Set dictionary to your master folder ( you can upload files to G drive and link your colab to your G drive)
 ```
 %cd /content/.....
 !pwd # show your current dictionary
@@ -44,7 +44,7 @@ new.bin is the init_checkpoint in the running command
 ```
 export BERT_DIR=bert-base-uncased
 ```
-while your cd is at master folder, (#if you follow this code, put bert_config.json and vocab.txt in your master folder)
+while your cd is at master folder, (if you follow this code, put bert_config.json and vocab.txt in your master folder)
 ```
 !python bert/run_mtmsn.py \
   "--vocab_file" vocab.txt \ 
