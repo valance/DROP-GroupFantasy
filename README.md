@@ -3,10 +3,11 @@
 load checkpoint:
 ```
 from bert.modeling import BertConfig
+bert_config = BertConfig.from_json_file('bert_config.json')
+
 from bert.modeling_drop import MTMSN
 import torch
 from collections import OrderedDict
-bert_config = BertConfig.from_json_file('bert_config.json')
 checkpoint = torch.load('checkpoint.pth.tar',map_location=torch.device('cpu'))
 model_cp = []
 for i in checkpoint['model']:
