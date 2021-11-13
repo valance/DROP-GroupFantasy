@@ -22,6 +22,10 @@ new.bin is the init_checkpoint in the running command
 
 cv training command:
 ```
+export BERT_DIR=bert-base-uncased
+```
+
+```
 python -m bert.run_mtmsn \
   --vocab_file $BERT_DIR/vocab.txt \
   --bert_config_file $BERT_DIR/config.json \
