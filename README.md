@@ -5,7 +5,7 @@ load checkpoint:
 from bert.modeling_drop import MTMSN
 import torch
 from collections import OrderedDict
-checkpoint = torch.load('18/checkpoint.pth.tar',map_location=torch.device('cpu'))
+checkpoint = torch.load('checkpoint.pth.tar',map_location=torch.device('cpu'))
 model_cp = []
 for i in checkpoint['model']:
     model_cp.append(('.'.join(i.split('.')[1:]),checkpoint['model'][i]))
