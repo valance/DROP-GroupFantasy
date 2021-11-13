@@ -21,6 +21,8 @@ new.bin is the init_checkpoint in the running command
 2: alex
 3, 4: cindy 
 
+cv training command:
+```
 python -m bert.run_mtmsn \
   --vocab_file $BERT_DIR/vocab.txt \
   --bert_config_file $BERT_DIR/config.json \
@@ -41,3 +43,4 @@ python -m bert.run_mtmsn \
   --negation \
   --gradient_accumulation_steps 1 \
   --output_dir out/mtmsn_base
+```
