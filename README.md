@@ -10,7 +10,6 @@ model_cp = []
 for i in checkpoint['model']:
     model_cp.append(('.'.join(i.split('.')[1:]),checkpoint['model'][i]))
 model_cp = OrderedDict(model_cp)
-model = MTMSN(bert_config)
 torch.save(model_cp, 'new.bin')
 ```
 
