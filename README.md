@@ -7,10 +7,15 @@ Environment
 !pip install Allennlp==0.8.4
 !pip install overrides==3.1.0
 ```
-A little modifications on run_mtmsn.py:
+Modification on run_mtmsn.py:
 ```
 import sys
 sys.path.append('master_folder_path') # master folder = the folder contains drop,bert,...
+```
+To get the exact path,try to print the current sys.path and find the one that leads to your master folder.
+```
+import sys
+print(sys.path)
 ```
 Set dictionary to your master folder ( you can upload files to G drive and link your colab to your G drive)
 ```
