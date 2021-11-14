@@ -4,13 +4,12 @@ This is a description for our error analysis code and result.
 
 **error_analysis.ipynb** is the code to output error analysis result.
 
-**baseline_error_analysis.png** and
-**new_error_analysis.png** are the result.
+**baseline_error_analysis.png** and **new_error_analysis.png** are the result.
 
 
 # Error Analysis 
 
-Due to the deficiency of the error analysis provided with the MTMSN model, which is based only on 100 randomy selected examples from the wrongly predicted data, we reconducted the error analysis on both the baseline model and our new model, using the predictions performed on the [cv_fold-4](dropdata/cv_fold-4.json) dataset. 
+The original error analysis of the MTMSN model is based on only 100 randonly selected examples, from the wrongly predicted data. Because this is a subset only, we have re-conducted the error analysis on all the wrongly predicted data, for both the baseline MTMSN model and our model (which has an additional input embedding). The data used for error analysis is the predictions performed on the [cv_fold-4](dropdata/cv_fold-4.json) dataset. 
 
 The corresponding predictions output can be found in [baseline_predictions.json](baseline_predictions.json) and [new_predictions.json](new_predictions.json). 
 
