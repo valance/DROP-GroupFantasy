@@ -2,7 +2,13 @@
 
 # Our Approach
 
-The coding for training with a additional input embeddings generated from an external NER model (i.e. corenlp) is on the MTMSN_new_embedding folder. 
+We list four folders:
+- **MTMSN_new_embedding** for our version of MTMSN model (it has an additional embedding - type embedding)
+- **data_statistics** for our code and result for data_statistics
+- **dropdata** for generating drop data with cross validation
+- **error_analysis** for our code and result for error_analysis
+
+The codes for training with a additional input embeddings generated from an external NER model (i.e. corenlp) is on the MTMSN_new_embedding folder. 
 
 The trained model checkpoint is available in the mtmsn_base folder in the aforementioned repo. However, this is not the finalized one. Because of the long training time, even longer time is need for parameters exploration. The checkpoint trained with new setting given in the MTMSN_new_embedding/mtmsn_base fold is the first attempt (but failed as we just keep using the same parameters setting as training the baseline). 
 
