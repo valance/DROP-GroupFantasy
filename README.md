@@ -2,11 +2,11 @@
 
 # Our Approach
 
-The coding for training with a additional input embeddings generated from an external NER model (i.e. corenlp) is on https://github.com/KanaCS/MTMSN. 
+The coding for training with a additional input embeddings generated from an external NER model (i.e. corenlp) is on the MTMSN_new_embedding folder. 
 
-The trained model checkpoint is available in the mtmsn_base folder in the aforementioned repo. However, this is not the finalized one. Because of the long training time, even longer time is need for parameters exploration. The checkpoint trained with new setting given in the mtmsn_base fold is the first attempt (but failed as we just keep using the same parameters setting as training the baseline). 
+The trained model checkpoint is available in the mtmsn_base folder in the aforementioned repo. However, this is not the finalized one. Because of the long training time, even longer time is need for parameters exploration. The checkpoint trained with new setting given in the MTMSN_new_embedding/mtmsn_base fold is the first attempt (but failed as we just keep using the same parameters setting as training the baseline). 
 
-In addition, we assumed the best parameters for training the baseline is the same as the one given in the author github repo. We replicated the training and give a baseline checkpoint in the mtmsn_base folder also. This is trained only by pretrained_split.json. As getting the result of CV, additional 5 checkpoints is generated, you can contact ttchungac@connect.ust.hk if you want them but because consideration of drive storage, they are not available for download. The result of CV is (1/5)(+++++) = .
+In addition, we assumed the best parameters for training the baseline is the same as the one given in the author github repo. We replicated the training and give a baseline checkpoint in the MTMSN_new_embedding/mtmsn_base folder also. This is trained only by pretrained_split.json. For the training of CV, if retaining the same parameters setting, the model cannot be successfully trained. After parameters exploration, we found a different learning rate can help and thus we opt for a smaller learning rate of 1e-5. As getting the result of CV, additional 5 checkpoints is generated, you can contact ttchungac@connect.ust.hk if you want them but because consideration of drive storage, they are not available for download.
 
 For our new attempt in embeddings modification, this is still ongoing, improvement over the baseline model is acheive for current attempted parameters setting. But as it is still ongoing (even training the cv for our current best model need a lot of time), the result is not shown before 14/11 (code and result submission deadline of COMP5222). Thanks for your understanding.
 
