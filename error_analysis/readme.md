@@ -17,6 +17,7 @@ Among the cv_fold-4 dataset which has size 3376:
 - and 2009 are numerics problems. <br>
 
 Our analysis results are shown below: 
+
 <img src="https://github.com/valance/DROP-GroupFantasy/blob/main/error_analysis/baseline_error_analysis.png" width=400 height=1200/> <img src="https://github.com/valance/DROP-GroupFantasy/blob/main/error_analysis/new_error_analysis.png" width=400 height=1200/>. 
 
 
