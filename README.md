@@ -4,7 +4,7 @@ We list four folders:
 - **MTMSN_new_embedding** for our version of MTMSN model (it has an additional embedding - type embedding)
 - **data_statistics** for our code and result for data_statistics
 - **dropdata** for generating drop data with cross validation
-- **error_analysis** for our code and result for error_analysis
+- **error_analysis** for our code and result for error_analysis - in which you can find a detailed description
 
 # Our Approach
 
