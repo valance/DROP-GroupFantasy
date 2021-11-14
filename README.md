@@ -53,21 +53,23 @@ Among the cv_fold-4 dataset with size 3376, 1294 are span extraction problems, 7
 <img src="https://github.com/valance/DROP-GroupFantasy/blob/main/baseline_error_analysis.png" width=400 height=1200/> <img src="https://github.com/valance/DROP-GroupFantasy/blob/main/new_error_analysis.png" width=400 height=1200/>. 
 
 
-For the span extraction problems, we categorize the errors into the following four types:
+For the **span extraction problems**, we categorize the errors into the following four types:
 - wrong type: the task predicted is not span extraction
 - wrong span: the span(s) are wrongly identified
 - missing span: the predicted answer contains less spans compared to the ground truth answer
 - extra span: the predicted answer contains more spans compared to the ground truth answer
 
-For the date identification problems, we categorize the errors into two types:
+For the **date identification problems**, we categorize the errors into two types:
 - wrong type: the task predicted is not date identification
 - wrong date: the date is wrongly identified
 
-For the numerics problems, we categorize the errors into the six types as listed below:
+For the **numerics problems**, we categorize the errors into the six types as listed below:
 - wrong type: the task predicted is not numerics problem
 - counting: counting problem
 - negation: negation problem
 - addition or subtraction: arithmetic operations of addition/subtraction
 - wrong sign: the result is correct but in opposite sign, e.g. calculating the difference between A and B
 - percentage calculation: calculation of percentage 
+
+By comparing the error analysis pie charts, we can tell that though our model produces more extra-span errors which is not desirable, it is able to produce less wrong-span errors. Additionally, our model can better cope with the counting problems compared to the baseline model. 
 
