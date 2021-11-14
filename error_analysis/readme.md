@@ -9,9 +9,7 @@ This is a description for our error analysis code and result.
 
 # Error Analysis 
 
-The original error analysis of the MTMSN model is based on only 100 randonly selected examples, from the wrongly predicted data. Because this is a subset only, we have re-conducted the error analysis on all the wrongly predicted data, for both the baseline MTMSN model and our model (which has an additional input embedding). The data used for error analysis is the predictions performed on the [cv_fold-4](dropdata/cv_fold-4.json) dataset. 
-
-The corresponding predictions output can be found in [baseline_predictions.json](baseline_predictions.json) and [new_predictions.json](new_predictions.json). 
+The original error analysis of the MTMSN model is based on only 100 randonly selected examples, from the wrongly predicted data. Because this is a subset only, we have re-conducted the error analysis on all the wrongly predicted data, for both the baseline MTMSN model and our model (which has an additional input embedding). The data used for error analysis is the predictions performed on the [cv_fold-4](dropdata/cv_fold-4.json) dataset. The corresponding predictions output can be found in [baseline_predictions.json](../baseline_predictions.json) and [new_predictions.json](../new_predictions.json). 
 
 Among the cv_fold-4 dataset with size 3376, 1294 are span extraction problems, 73 are data identification problems, and 2009 are numerics problems. Our analysis results are shown below: 
 
