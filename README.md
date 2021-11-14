@@ -50,7 +50,7 @@ The corresponding predictions output can be found in [baseline_predictions.json]
 
 Among the cv_fold-4 dataset with size 3376, 1294 are span extraction problems, 73 are data identification problems, and 2009 are numerics problems. Our analysis results are shown below: 
 
-<img src="https://github.com/valance/DROP-GroupFantasy/blob/main/baseline_error_analysis.png" width=400 height=1200/> <img src="https://github.com/valance/DROP-GroupFantasy/blob/main/new_error_analysis.png" width=400 height=1200/>. 
+<img src="https://github.com/valance/DROP-GroupFantasy/blob/main/error_analysis/baseline_error_analysis.png" width=400 height=1200/> <img src="https://github.com/valance/DROP-GroupFantasy/blob/main/error_analysis/new_error_analysis.png" width=400 height=1200/>. 
 
 
 For the **span extraction problems**, we categorize the errors into the following four types:
