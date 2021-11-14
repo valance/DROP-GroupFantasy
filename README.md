@@ -21,7 +21,7 @@ After parameters exploration, we found a different learning rate can help and th
 
 For getting the result of CV, additional 5 checkpoints is generated, you can contact ttchungac@connect.ust.hk if you want them but considering the driver storage limit, they are not available for download. 
 
-The CV result is (1/5)(61.027+?+63.747+68.552+65.318) for running 10 epoches. <br>
+The CV result is (1/5)(61.027+64.470+63.747+68.552+65.318) for running 10 epoches. <br>
 We have also tried to run more epoches, the performance can be further increased. Because of the time limitation, we did not experiment through all 5 cv models. The potential performance is expected to be better than the cv result shown here.
 
 For our new attempt in embeddings modification, this is still ongoing, improvement over the baseline model is acheived for currently attempted parameter setting. <br>
