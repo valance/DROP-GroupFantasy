@@ -31,13 +31,13 @@ For the **date identification problems**, we categorize the errors into two type
 - wrong type: the task predicted is not date identification
 - wrong date: the date is wrongly identified
 
-For the **numerics problems**, we categorize the errors into the six types as listed below:
+For the **numerics problems**, we categorize the errors into the five types as listed below:
 - wrong type: the task predicted is not numerical problem
 - counting: counting problem
 - negation: negation problem
 - addition or subtraction: arithmetic operations of addition/subtraction
 - wrong sign: the result is correct but is of opposite sign, e.g. calculating the difference between A and B
-- percentage calculation: calculation of percentage 
+
 
 # Result
 
